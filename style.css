@@ -1,0 +1,64 @@
+.yellowRectangle{   /* Bloque amarillo blureado */
+    display: block;
+    
+    width: 886px;
+    height: 536px;
+
+    position:absolute;
+
+    top:50%;
+    left:50%;
+    margin-left: -450px;
+    margin-top: -300px;
+
+    background-color: #FFFFE6;
+    filter: blur(25px);
+}   
+.textYellowRectangle{ /* El texto que acompaña el bloque blureado*/
+    display: block;
+    
+    width: 876px;
+    height: 526px;
+
+    position:absolute;
+
+    top:50%;
+    left:50%;
+    margin-left: -450px;
+    margin-top: -300px;
+    /* Buscar manera de crear un bordado*/
+}
+.imagenPerfil{
+    position: relative;
+    left: 44.1%;
+    right: 44.24%;
+    top: 33.79%;
+    bottom: 50.39%;
+
+    height: 162px;
+}
+.texto{
+    height: 65px;
+    width: 430px;
+    left: 504px;
+    top: 550px;
+    border-radius: nullpx;
+}
+.nombre{
+    font-family: Karma;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: black;
+}
+.carrera{
+    font-family: Karma;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: black;
+}
