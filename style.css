@@ -1,3 +1,4 @@
+/*---------------- BLOQUE ------------------*/
 .yellowRectangle{   /* Bloque amarillo blureado */
     display: block;
     
@@ -27,21 +28,46 @@
     margin-left: -450px;
     margin-top: -300px;
     /* Buscar manera de crear un bordado*/
+    border: dashed black;
 }
+/*---------------- IMAGEN ------------------*/
+
 .imagenPerfil{
     position: relative;
-    left: 44.1%;
-    right: 44.24%;
-    top: 33.79%;
-    bottom: 50.39%;
+    top:50%;
+    left:50%;
+    margin-left: -82px;
+    margin-top: -141px;
 
     height: 162px;
+    width: 168px;
+
+    border-radius: 11px;
+
+    overflow: hidden;
 }
+
+.imagenPerfil img {
+    position: relative;
+    left: -25;
+
+    height: 162px;
+
+
+}
+
+/*---------------- TEXTO ------------------*/
 .texto{
+    position: relative;
+    top:50%;
+    left:50%;
+    margin-left: -213px;
+    margin-top: 23px;
+
+
     height: 65px;
     width: 430px;
-    left: 504px;
-    top: 550px;
+    
     border-radius: nullpx;
 }
 .nombre{
@@ -52,6 +78,8 @@
     letter-spacing: 0em;
     text-align: center;
     color: black;
+
+    margin: 0px 0;   
 }
 .carrera{
     font-family: Karma;
@@ -61,4 +89,6 @@
     letter-spacing: 0em;
     text-align: center;
     color: black;
+
+    margin: 0px 0;        
 }
