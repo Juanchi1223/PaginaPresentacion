@@ -14,7 +14,27 @@
 
     background-color: #FFFFE6;
     filter: blur(25px);
-}   
+
+    /*border: solid black;*/
+} 
+
+.bluredBorder{
+    display: block;
+    
+    width: 886px;
+    height: 536px;
+
+    position:absolute;
+
+    top:50%;
+    left:50%;
+    margin-left: -450px;
+    margin-top: -300px;
+
+    border: solid black;
+    filter: blur(15px);
+}
+
 .textYellowRectangle{ /* El texto que acompaña el bloque blureado*/
     display: block;
     
@@ -28,7 +48,7 @@
     margin-left: -450px;
     margin-top: -300px;
     /* Buscar manera de crear un bordado*/
-    border: dashed black;
+    /*border: dashed black;*/
 }
 /*---------------- IMAGEN ------------------*/
 
@@ -36,7 +56,7 @@
     position: relative;
     top:50%;
     left:50%;
-    margin-left: -82px;
+    margin-left: -91px;
     margin-top: -141px;
 
     height: 162px;
@@ -45,6 +65,7 @@
     border-radius: 11px;
 
     overflow: hidden;
+    border: 0.5px solid black;
 }
 
 .imagenPerfil img {
@@ -52,8 +73,6 @@
     left: -25;
 
     height: 162px;
-
-
 }
 
 /*---------------- TEXTO ------------------*/
@@ -61,7 +80,7 @@
     position: relative;
     top:50%;
     left:50%;
-    margin-left: -213px;
+    margin-left: -222px;
     margin-top: 23px;
 
 
@@ -70,8 +89,9 @@
     
     border-radius: nullpx;
 }
+
 .nombre{
-    font-family: Karma;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 32px;
     font-weight: 400;
     line-height: 46px;
@@ -81,8 +101,9 @@
 
     margin: 0px 0;   
 }
+
 .carrera{
-    font-family: Karma;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
@@ -91,4 +112,26 @@
     color: black;
 
     margin: 0px 0;        
+}
+/*---------------- BOTTONES ------------------*/
+button{
+    position: relative;
+    top: 50%;
+    left: 50%;
+
+    margin-right: 14px;
+    
+    width: 42px;
+    height: 42px;
+    
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.botonYo{
+    position: relative;
+    margin-left: -114px;
+    margin-top: 24px;
 }
