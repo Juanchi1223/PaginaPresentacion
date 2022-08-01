@@ -127,13 +127,35 @@ button{
     border-radius: 50%;
     border: none;
     background-color: white;
-    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25) inset;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0,  0, 0.25) inset;
+    transition: 500ms;
 }
 
 .botonYo{
     position: relative;
     margin-left: -114px;
     margin-top: 24px;
+    
+}
+
+.botonYo:hover{  
+    background-color: #CFE8FF;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
+}
+.botonYo img:hover{
+    src:"scr\Icons\Hovers\Yo.png";
+}
+.academico:hover{
+    background-color: #B0B391;   
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25); 
+}
+.hobbies:hover{
+    background-color: #FFD1CF;   
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
+}
+.contacto:hover{
+    background-color: #B39B9A;       
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
 }
 
 .iconoYo{

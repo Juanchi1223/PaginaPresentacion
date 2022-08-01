@@ -7,5 +7,10 @@ Objetivos(Temporales):
 1. Cambiar Fuentes
 2. Agregar los iconos
 
+Proximos:
+
+1. Pagina de gustos (Peliculas, Series, Musica, Libros)
+
+
 Diseño(Figma):
 https://www.figma.com/file/n88zJ6NKr0txCdRzesLScA/PaginaWebPresentacion?node-id=9%3A49
