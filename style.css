@@ -119,111 +119,81 @@ body{
     margin: 0px 0;        
 }
 /*---------------- BOTTONES ------------------*/
-
 button{
-    position: relative;
-    top: 50%;
-    left: 50%;
+    display: block;
+    position: absolute;
 
-    margin-right: 14px;
-    
-    width: 42px;
-    height: 42px;
-    
+    width: 42;
+    height: 42;
+
+    align-items: center;
+
     border-radius: 50%;
-    border: none;
-    background-color: white;
-    box-shadow: 0px 5px 5px 0px rgba(0, 0,  0, 0.25) inset;
-    transition: 500ms;
+    border: 0;
+    background-color: red;
+}
+button img{
+    top: 25%;
+    left: 25%;
 }
 
-.botonYo{
-    position: relative;
-    margin-left: -114px;
-    margin-top: 24px;
-    
+.botonYo{       /*     BOTTON YO     */
+    top: 385px;
+    left: 330px;
+}
+.botonYo img{
+    position: absolute;
+}
+.iconoYo{
+    transition: 0.3s;
+}
+button:hover .iconoYo{
+    opacity: 0;
 }
 
-.botonYo:hover{  
-    background-color: #CFE8FF;
-    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
+.academico{     /*    BOTTON ACADEMICO      */
+    top: 385px;
+    left: 386px;
 }
-.academico:hover{
-    background-color: #B0B391;   
-    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
-}
-.hobbies:hover{
-    background-color: #FFD1CF;   
-    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
-}
-.contacto:hover{
-    background-color: #B39B9A;       
-    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
-}
-
-.iconoYo{       /* La altura de los iconos individuales */
-    width: 19px;
-    height: 21px;
-}
-.iconoYoHover{
-    display: none;
+.academico img{
+    position: absolute;
 }
 .iconoAca{
-    width: 22.01px;
-    height: 18.79px;
+    transition: 0.3s;
+}
+button:hover .iconoAca{
+    opacity: 0;
+}
+
+.hobbies{       /*    BOTTON HOBBIES      */
+    top: 385px;
+    left: 443px;
+}
+.hobbies img{
+    position: absolute;
+    top: 12px;
+    left: 12px;
 }
 .iconoHbbs{
-    width: 17.92px;
-    height: 14.85px;
+    transition: 0.3s;
+}
+button:hover .iconoHbbs{
+    opacity: 0;
+}
+
+
+.contacto{      /*    BOTTON CONTACTO      */
+    top: 385px;
+    left: 500px;
+}
+.contacto img{
+    position: absolute;
+    top: 12px;
+    left: 12px;
 }
 .iconoCnt{
-    width: 17.5px;
-    height: 17.5px;
+    transition: 0.3s;
 }
-
-.tituloSubpag{
-    position: relative;
-    width: 325px;
-    height: 74px;
-    left: 99px;
-    top: 64px;
-
-    font-style: normal;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 74px;
-    text-align: center;
-
-    color: #000000;
+button:hover .iconoCnt{
+    opacity: 0;
 }
-
-.backButton{
-    position: relative;
-    width: 53px;
-    height: 53px;
-    left: 52px;
-    top: 64px;
-}
-.backButton img{
-    width: 28px;
-    height: 20px;
-}
-
-.textoYo{
-    display: block;
-
-    position: relative;
-    width: 637px;
-    height: 231px;
-    top: 33px;
-    left: 150px;
-    
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 29px;
-    text-align: justify;
-    
-    color: #000000;
-}
-
