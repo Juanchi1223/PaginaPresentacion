@@ -132,6 +132,7 @@ button{
 }
 button:hover{
     box-shadow: 0px 5px 5px 0px rgba(0, 0,  0, 0.25);
+    cursor: pointer;
 }
 button img{
     top: 25%;
@@ -227,4 +228,51 @@ button:hover .iconoCnt{
 }
 .contacto:hover{
     background-color: #B39B9A;
+}
+
+.tituloSubpag{      /* STANDERES DE SUB PAGINAS (backbutton y titulo)*/
+    position: absolute;
+    top: 91px;
+    left: 99px;
+    
+    width: 325px;
+    height: 53px;
+
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 74px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+}
+.backButton{
+    position: absolute;
+    top: 32px;
+    left: 32px;
+
+    width: 53px;
+    height: 53px;
+}
+.backButton img{
+    position: absolute;
+    top: 16px;
+    left: 12.7px; 
+
+    width: 28.71px;
+    height: 20.98px;
+}
+
+.textoYo{
+    position: absolute;
+    height: 238px;
+    width: 637px;
+    left: 136px;
+    top: 186px;
+    border-radius: nullpx;
+
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: justified;
 }
