@@ -5,7 +5,8 @@ Este va archivo va a presetar las ideas y objetivos de mi pagina.
 Objetivos(Temporales):
 
 1. Cambiar Fuentes
-2. Agregar los iconos
+2. Posicionar los items en Hobbies
+3. Posicionar las fotos en Hobbies
 
 Proximos:
 

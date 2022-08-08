@@ -366,3 +366,45 @@ button:hover .iconoCnt{
     top: 13.87px;
     left: 99.12px;
 }
+.listaHobbies{      /*       PAGINA HOBBIES       */
+    position: absolute;
+    top: 183px;
+    left: 172px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: justify;
+
+}
+.listaHobbies br{
+    content: "";
+    margin: 12px;
+    display: block;
+    font-size: 24%;
+}
+.notaMusical{
+    position: absolute;
+    top: 206px;
+    left: 134px;
+
+    width: 24px;
+    height: 24px;
+}
+.bajo{
+    position: absolute;
+    top: 246px;
+    left: 134px;
+
+    width: 24px;
+    height: 24px;
+}
+.guitarra{
+    position: absolute;
+    top: 286px;
+    left: 134px;
+
+    width: 24px;
+    height: 24px;
+}
