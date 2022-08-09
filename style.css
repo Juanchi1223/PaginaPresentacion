@@ -408,3 +408,85 @@ button:hover .iconoCnt{
     width: 24px;
     height: 24px;
 }
+.laptop{
+    position: absolute;
+    top: 326px;
+    left: 134px;
+
+    width: 24px;
+    height: 24px;
+}
+.rubioLaptop{
+    position: absolute;
+    top: 366px;
+    left: 134px;
+
+    width: 24px;
+    height: 24px;
+}
+.videogame{
+    position: absolute;
+    top: 406px;
+    left: 134px;
+
+    width: 24px;
+    height: 24px;
+}
+.avion{
+    position: absolute;
+    top: 446px;
+    left: 134px;
+
+    width: 24px;
+    height: 24px;
+}
+.imagenInglaterra{      /*     FOTOS HOBBIES     */
+    position: absolute;
+    top: 85px;
+    left: 620px;
+
+    height: 170px;
+    width: 154px;
+
+    overflow: hidden;
+    border-radius: 12px;
+}
+.imagenInglaterra img{
+    height: 170px;
+    width: auto;
+    left: -10px;
+}
+.imagenLolla{
+    position: absolute;
+    top: 130px;
+    left: 438px;
+
+    height: 268px;
+    width: 223px;
+
+    overflow: hidden;
+    border-radius: 12px;
+}
+.imagenLolla img{
+    height: 294px;
+    width: auto;
+    position: absolute;
+    left: -40px;
+    top: -20px;
+}
+.imagenBajo{
+    position: absolute;
+    top: 280px;
+    left: 620px;
+
+    height: 171px;
+    width: 145px;
+
+    overflow: hidden;
+    border-radius: 12px;
+}
+.imagenBajo img{
+    height: 174px;
+    width: 100%;
+    left: -10px;
+}
