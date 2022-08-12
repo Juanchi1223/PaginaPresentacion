@@ -1,0 +1,91 @@
+.parrafoAcademico{      /*     Pagina Academico     */
+    display: block;
+    width: 644px;
+    height: 208px;
+
+    position: absolute;
+    left: 136px;
+    top: 186px;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: justify;
+
+}
+.bottonProyectoP{   /*    BOTTON PROYECTO PYTHON      */
+    display: block;
+    width: 151px;
+    height: 61px;
+
+    position: absolute;
+    left: 243px;
+    top: 428px;
+
+    border-radius: 14px;
+    
+    background-color: #0C0C15;
+}
+.bottonProyectoP h6{
+    display: inline-block;
+    margin-top: 23px;
+    margin-left: -43px;
+
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+    color: white;
+
+}
+.bottonProyectoP img{
+    display: block;
+    width: 36.77px;
+    height: 33.73px;
+
+    position: absolute;
+    top: 13.87px;
+    left: 106.12px;
+}
+
+.bottonProyectoJ{   /*    BOTTON PROYECTO JAVA      */
+    display: block;
+    width: 151px;
+    height: 61px;
+
+    position: absolute;
+    left: 480px;
+    top: 428px;
+
+    border-radius: 14px;
+    
+    background-color: #0C0C15;
+}
+.bottonProyectoJ h6{
+    display: inline-block;
+    margin-top: 23px;
+    margin-left: -50px;
+
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+    color: white;
+
+}
+.bottonProyectoJ img{
+    display: block;
+    width: 36.77px;
+    height: 33.73px;
+
+    position: absolute;
+    top: 13.87px;
+    left: 99.12px;
+}

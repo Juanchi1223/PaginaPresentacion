@@ -1,0 +1,84 @@
+body{
+    background-color: white;
+}
+
+.yellowRectangle{            /* Bloque amarillo blureado */
+    display: block;
+    
+    width: 886px;
+    height: 536px;
+
+    position:absolute;
+
+    top:50%;
+    left:50%;
+    margin-left: -450px;
+    margin-top: -300px;
+
+    background-color: #FFFFE6;
+    filter: blur(25px);
+
+} 
+
+.bluredBorder{             /* NOTA: Fijate de poner 100% y meter el div adentro del anterior */
+    display: block;
+    
+    width: 886px;
+    height: 536px;
+
+    position:absolute;
+
+    top:50%;
+    left:50%;
+    margin-left: -450px;
+    margin-top: -300px;
+
+    border: solid black;
+    filter: blur(15px);
+}
+
+.textYellowRectangle{           /* El texto que acompaña el bloque blureado*/
+    display: block;
+    
+    width: 876px;
+    height: 526px;
+
+    position:absolute;
+
+    top:50%;
+    left:50%;
+    margin-left: -450px;
+    margin-top: -300px;
+}
+
+.tituloSubpag{      /* STANDERES DE SUB PAGINAS (backbutton y titulo)*/
+    position: absolute;
+    top: 91px;
+    left: 99px;
+    
+    width: 325px;
+    height: 53px;
+
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 74px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+}
+.backButton{
+    position: absolute;
+    top: 32px;
+    left: 32px;
+
+    width: 53px;
+    height: 53px;
+}
+.backButton img{
+    position: absolute;
+    top: 16px;
+    left: 12.7px; 
+
+    width: 28.71px;
+    height: 20.98px;
+}

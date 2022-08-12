@@ -1,0 +1,178 @@
+/*---------------- IMAGEN ------------------*/
+
+.imagenPerfil{
+    position: relative;
+    top:50%;
+    left:50%;
+    margin-left: -91px;
+    margin-top: -141px;
+
+    height: 162px;
+    width: 168px;
+
+    border-radius: 11px;
+
+    overflow: hidden;
+    border: 0.5px solid black;
+}
+
+.imagenPerfil img {
+    position: relative;
+    left: -25;
+
+    height: 162px;
+}
+
+/*---------------- TEXTO ------------------*/
+
+.texto{
+    position: relative;
+    top:50%;
+    left:50%;
+    margin-left: -222px;
+    margin-top: 23px;
+
+
+    height: 65px;
+    width: 430px;
+    
+    border-radius: nullpx;
+}
+
+.nombre{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: black;
+
+    margin: 0px 0;   
+}
+
+.carrera{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: black;
+
+    margin: 0px 0;        
+}
+/*---------------- BOTTONES ------------------*/
+button{
+    display: block;
+    position: absolute;
+
+    width: 42;
+    height: 42;
+
+    border-radius: 50%;
+    border: 0;
+    background-color: white;
+
+    box-shadow: 0px 5px 5px 0px rgba(0, 0,  0, 0.25) inset;
+    transition: 0.6s;
+}
+button:hover{
+    box-shadow: 0px 5px 5px 0px rgba(0, 0,  0, 0.25);
+    cursor: pointer;
+}
+button img{
+    top: 25%;
+    left: 25%;
+}
+
+.botonYo{       /*     BOTTON YO     */
+    top: 385px;
+    left: 330px;
+}
+.botonYo img{
+    position: absolute;
+
+    top: 11px;
+    left: 12px;
+
+    width: 19px;
+    height: 21px;
+}
+.iconoYo{
+    transition: 0.1s;
+}
+button:hover .iconoYo{
+    opacity: 0;
+}
+.botonYo:hover{
+    background-color: #CFE8FF;
+}
+.academico{     /*    BOTTON ACADEMICO      */
+    top: 385px;
+    left: 386px;
+}
+.academico img{
+    position: absolute;
+
+    top: 12.54px;
+    left: 10.49px;
+
+    width: 22;
+    height: 18;
+}
+.iconoAca{
+    transition: 0.1s;
+}
+button:hover .iconoAca{
+    opacity: 0;
+}
+.academico:hover{
+    background-color: #B0B391;
+}
+
+.hobbies{       /*    BOTTON HOBBIES      */
+    top: 385px;
+    left: 443px;
+}
+.hobbies img{
+    position: absolute;
+
+    top: 14.59px;
+    left: 12px;
+
+    width: 18px;
+    height: 15px;
+}
+.iconoHbbs{
+    transition: 0.1s;
+}
+button:hover .iconoHbbs{
+    opacity: 0;
+}
+.hobbies:hover{
+    background-color: #FFD1CF;
+}
+
+.contacto{      /*    BOTTON CONTACTO      */
+    top: 385px;
+    left: 500px;
+}
+.contacto img{
+    position: absolute;
+
+    top: 12px;
+    left: 12px;
+
+    width: 18px;
+    height: 18px;
+}
+.iconoCnt{
+    transition: 0.1s;
+}
+button:hover .iconoCnt{
+    opacity: 0;
+}
+.contacto:hover{
+    background-color: #B39B9A;
+}

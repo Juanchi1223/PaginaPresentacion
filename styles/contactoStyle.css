@@ -1,0 +1,93 @@
+/*----- PAGINA CONTACTO -----*/
+button{
+    position: absolute;
+    height: 75px;
+    width: 190px;
+    border-radius: 0;
+    box-shadow: none;
+
+    padding: 0;
+}
+button img{
+    position: absolute;
+    left: 10px;
+}
+
+.botonLinkedin{             /*      LINKEDIN      */
+    top: 225px;
+    left: 103px;
+}
+.botonLinkedin img{
+    top: 16px;
+}
+.botonLinkedin h6{
+    position: absolute;
+    top: 25%;
+    left: 55px;
+
+    width: 125px ; 
+    height: 34px;
+    margin: 0;
+
+    font-family: Karma;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.botonGithub{               /*      GITHUB      */
+    top: 225px;
+    left: 343px;
+}
+.botonGithub img{
+
+}
+.botonGithub h6{
+
+}
+
+.botonInstagram{            /*      INSTAGRAM   */
+    top: 225px;
+    left: 583px;
+}
+.botonInstagram img{
+
+}
+.botonInstagram h6{
+
+}
+
+.botonTwitter{              /*      TWITTER      */
+    top: 350px;
+    left: 103px;
+}
+.botonTwitter img{
+
+}
+.botonTwitter h6{
+
+}
+
+.botonReddit{               /*      REDDIT      */
+    top: 350px;
+    left: 343px;
+}
+.botonReddit img{
+
+}
+.botonReddit h6{
+
+}
+
+.botonGmail{                /*      GMAIL      */
+    top: 350px;
+    left: 583px;
+}
+.botonGmail img{
+
+}
+.botonGmail h6{
+
+}
