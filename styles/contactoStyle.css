@@ -29,7 +29,7 @@ button img{
     height: 34px;
     margin: 0;
 
-    font-family: Karma;
+    /*font-family: Karma;*/
     font-size: 32px;
     font-weight: 400;
     line-height: 46px;
@@ -42,10 +42,23 @@ button img{
     left: 343px;
 }
 .botonGithub img{
-
+    top: 17px;
 }
 .botonGithub h6{
+    position: absolute;
+    top: 25%;
+    left: 68px;
 
+    width: 104px ; 
+    height: 34px;
+    margin: 0;
+
+    /*font-family: Karma;*/
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 
 .botonInstagram{            /*      INSTAGRAM   */
@@ -53,9 +66,22 @@ button img{
     left: 583px;
 }
 .botonInstagram img{
-
+    top: 20.45px;
 }
 .botonInstagram h6{
+    position: absolute;
+    top: 25%;
+    left: 53px;
+    margin: 0;
+
+    width: 131px;
+    height: 32px;
+
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
 
 }
 
@@ -64,10 +90,19 @@ button img{
     left: 103px;
 }
 .botonTwitter img{
-
+    top: 21.71px;
 }
 .botonTwitter h6{
+    position: absolute;
+    top: 25%;
+    left: 63px;
+    margin: 0%;
 
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 
 .botonReddit{               /*      REDDIT      */
@@ -75,10 +110,19 @@ button img{
     left: 343px;
 }
 .botonReddit img{
-
+    top: 20.06px;
 }
 .botonReddit h6{
+    position: absolute;
+    top: 25%;
+    left: 75px;
+    margin: 0%;
 
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 
 .botonGmail{                /*      GMAIL      */
@@ -86,8 +130,17 @@ button img{
     left: 583px;
 }
 .botonGmail img{
-
+    top: 23.1px;
 }
 .botonGmail h6{
+    position: absolute;
+    top: 25%;
+    left: 71px;
+    margin: 0%;
 
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
 }
