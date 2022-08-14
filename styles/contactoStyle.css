@@ -7,6 +7,7 @@ button{
     box-shadow: none;
 
     padding: 0;
+    transition: 0.3s;
 }
 button img{
     position: absolute;
@@ -35,8 +36,25 @@ button img{
     line-height: 46px;
     letter-spacing: 0em;
     text-align: left;
-
 }
+                        /*      Linkedin HOVER  */
+.botonLinkedin:hover{
+    background-color: #0E76A8;
+}
+.botonLinkedin:hover h6{
+    height: 19px;
+    width: 125px;
+    left: 30px;
+    top: 4px;
+    border-radius: nullpx;
+
+    font-size: 20px;
+
+    color: white;
+    text-decoration-line: black;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
 .botonGithub{               /*      GITHUB      */
     top: 225px;
     left: 343px;
@@ -60,6 +78,15 @@ button img{
     letter-spacing: 0em;
     text-align: left;
 }
+.botonGithub:hover{         /*    GitHub Hover      */
+    background-color: #191717;
+}
+.botonGithub:hover img{
+
+}
+.botonGithub:hover h6{
+
+}
 
 .botonInstagram{            /*      INSTAGRAM   */
     top: 225px;
@@ -82,7 +109,16 @@ button img{
     line-height: 46px;
     letter-spacing: 0em;
     text-align: left;
-
+}
+.botonInstagram:hover{      /*    Hover Instagram      */
+    background: rgb(245,133,41);
+    background: linear-gradient(90deg, rgba(245,133,41,1) 0%, rgba(254,218,119,1) 25%, rgba(221,42,123,1) 50%, rgba(129,52,175,1) 75%, rgba(81,91,212,1) 100%);
+}
+.botonInstagram:hover img{
+    
+}
+.botonInstagram:hover h6{
+    
 }
 
 .botonTwitter{              /*      TWITTER      */
@@ -104,6 +140,15 @@ button img{
     letter-spacing: 0em;
     text-align: left;
 }
+.botonTwitter:hover{            /*      Twitter Hover         */
+    background-color: #00ACEE;
+}
+.botonTwitter:hover img{
+
+}
+.botonTwitter:hover h6{
+
+}
 
 .botonReddit{               /*      REDDIT      */
     top: 350px;
@@ -124,7 +169,16 @@ button img{
     letter-spacing: 0em;
     text-align: left;
 }
+.botonReddit:hover{         /*       Reddit Hover        */
+    background-color: #FF4500;
+}
+.botonReddit:hover img{
 
+}
+.botonReddit:hover h6{
+
+}
+    
 .botonGmail{                /*      GMAIL      */
     top: 350px;
     left: 583px;
@@ -143,4 +197,13 @@ button img{
     line-height: 46px;
     letter-spacing: 0em;
     text-align: left;
+}
+.botonGmail:hover{      /*     Gmail Hover         */
+    background-color: #B23121;
+}
+.botonGmail:hover img{
+
+}
+.botonGmail:hover h6{
+
 }
