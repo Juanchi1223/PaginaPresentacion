@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "Karma";
+    src: url('\..\scr\Fonts\Karma-Regular.woff') !important;
+}
+
+
 /*---------------- IMAGEN ------------------*/
 
 .imagenPerfil{
@@ -40,7 +46,7 @@
 }
 
 .nombre{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Karma";
     font-size: 32px;
     font-weight: 400;
     line-height: 46px;
@@ -52,7 +58,7 @@
 }
 
 .carrera{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Karma;
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;

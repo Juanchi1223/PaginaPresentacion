@@ -13,6 +13,9 @@ button img{
     position: absolute;
     left: 10px;
 }
+button p{
+    opacity: 0;
+}
 
 .botonLinkedin{             /*      LINKEDIN      */
     top: 225px;
@@ -42,10 +45,11 @@ button img{
     background-color: #0E76A8;
 }
 .botonLinkedin:hover h6{
+    position: absolute;
     height: 19px;
     width: 125px;
-    left: 30px;
-    top: 4px;
+    left: 36px;
+    top: -4px;
     border-radius: nullpx;
 
     font-size: 20px;
@@ -82,6 +86,7 @@ button img{
     background-color: #191717;
 }
 .botonGithub:hover img{
+    position: absolute;
 
 }
 .botonGithub:hover h6{
