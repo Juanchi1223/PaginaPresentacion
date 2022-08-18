@@ -11,10 +11,12 @@ button{
 }
 button img{
     position: absolute;
-    /*left: 10px;*/
 }
 button p{
     opacity: 0;
+}
+button:hover{
+    cursor: pointer;
 }
 
 .botonLinkedin{             /*      LINKEDIN      */
@@ -268,9 +270,23 @@ button p{
     top: 350px;
     left: 103px;
 }
-.botonTwitter img{
+/*.botonTwitter img{
     top: 21.71px;
 }
+*/
+.botonTwitter .LogoTwitter{
+    position: absolute;
+    top: 21.71px;
+    left: 10px;
+}
+.botonTwitter .LogoHoverTwitter{
+    position: absolute;
+    top: 10.26px;
+    left: 9.52px;
+
+    opacity: 0;
+}
+
 .botonTwitter h6{
     position: absolute;
     top: 25%;
@@ -283,22 +299,66 @@ button p{
     letter-spacing: 0em;
     text-align: left;
 }
+.botonTwitter p{
+    position: absolute;
+    top: 30px;
+    left: 27px;
+    
+    margin: 0;
+
+    width: 160px;
+    height: 17px;
+
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffffff;
+}
+
 .botonTwitter:hover{            /*      Twitter Hover         */
     background-color: #00ACEE;
 }
-.botonTwitter:hover img{
-
+.botonTwitter:hover .LogoTwitter{
+    opacity: 0;
+}
+.botonTwitter:hover .LogoHoverTwitter{
+    opacity: 100;
 }
 .botonTwitter:hover h6{
+    position: absolute;
+    top: 9px;
+    left: 36px;
 
+    margin: 0%;
+    
+    width: 54px;
+    height: 19px;
+
+    font-size: 16px;
+    line-height: 23.25px;
+    color: #fff;
+}
+.botonTwitter:hover p{
+    opacity: 100;
 }
 
 .botonReddit{               /*      REDDIT      */
     top: 350px;
     left: 343px;
 }
-.botonReddit img{
+.botonReddit .LogoReddit{
+    position: absolute;
     top: 20.06px;
+    left: 10px;
+}
+.botonReddit .LogoHoverReddit{
+    position: absolute;
+    top: 6.25px;
+    left: 8.25px;
+
+    opacity: 0;
 }
 .botonReddit h6{
     position: absolute;
@@ -312,22 +372,72 @@ button p{
     letter-spacing: 0em;
     text-align: left;
 }
+.botonReddit p{
+    position: absolute;
+    top: 30px;
+    left: 27px;
+
+    margin: 0;
+
+    width: 135px;
+    height: 27px;
+
+    /*font-family: Karma;*/
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #fff;
+}
 .botonReddit:hover{         /*       Reddit Hover        */
     background-color: #FF4500;
 }
-.botonReddit:hover img{
-
+.botonReddit:hover .LogoReddit{
+    opacity: 0;
+}
+.botonReddit:hover .LogoHoverReddit{
+    opacity: 100;
 }
 .botonReddit:hover h6{
+    position: absolute;
+    top: 11px;
+    left: 37px;
 
+    margin: 0;
+
+    width: 49px;
+    height: 21px;
+
+    /*font-family: Karma;*/
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #fff;
+}
+.botonReddit:hover p{
+    opacity: 100;
 }
     
 .botonGmail{                /*      GMAIL      */
     top: 350px;
     left: 583px;
 }
-.botonGmail img{
+.botonGmail .LogoGmail{
+    position: absolute;
     top: 23.1px;
+    left: 10px;
+}
+.botonGmail .LogoHoverGmail{
+    position: absolute;
+    top: 9.48px;
+    left: 7.62px;
+
+    opacity: 0;
 }
 .botonGmail h6{
     position: absolute;
@@ -341,12 +451,53 @@ button p{
     letter-spacing: 0em;
     text-align: left;
 }
+.botonGmail p{
+    position: absolute;
+    top: 38px;
+    left: 10px;
+
+    margin: 0;
+
+    width: 175px;
+    height: 20px;
+
+    /*font-family: Karma;*/
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18.89px;
+    letter-spacing: 0em;
+    text-align: left;    
+    
+    color: #fff;
+    -webkit-text-stroke: 0px #fff;
+}
 .botonGmail:hover{      /*     Gmail Hover         */
     background-color: #B23121;
 }
-.botonGmail:hover img{
-
+.botonGmail:hover .LogoGmail{
+    opacity: 0;
+}
+.botonGmail:hover .LogoHoverGmail{
+    opacity: 100;
 }
 .botonGmail:hover h6{
+    position: absolute;
+    top: 9px;
+    left: 34px;
 
+    margin: 0;
+
+    width: 46px;
+    height: 18px;
+
+    /*font-family: Karma;*/
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+.botonGmail:hover p{
+    opacity: 100;
 }
