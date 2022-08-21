@@ -21,11 +21,12 @@
 
     position: absolute;
     left: 243px;
-    top: 428px;
+    top: 408px;
 
     border-radius: 14px;
     
     background-color: #0C0C15;
+    transition: 0.3s;
 }
 .bottonProyectoP h6{
     display: inline-block;
@@ -52,6 +53,10 @@
     left: 106.12px;
 }
 
+.bottonProyectoP:hover{
+    box-shadow: 0px 2px 8px 0px #fff inset;
+}
+
 .bottonProyectoJ{   /*    BOTTON PROYECTO JAVA      */
     display: block;
     width: 151px;
@@ -59,11 +64,12 @@
 
     position: absolute;
     left: 480px;
-    top: 428px;
+    top: 408px;
 
     border-radius: 14px;
     
     background-color: #0C0C15;
+    transition: 0.3s;
 }
 .bottonProyectoJ h6{
     display: inline-block;
@@ -88,4 +94,7 @@
     position: absolute;
     top: 13.87px;
     left: 99.12px;
+}
+.bottonProyectoJ:hover{
+    box-shadow: 0px 2px 8px 0px #fff inset;
 }

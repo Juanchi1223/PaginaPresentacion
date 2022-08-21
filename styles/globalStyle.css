@@ -1,5 +1,10 @@
+@font-face {
+    font-family: Karma;
+    src: url('Karma-Regular.woff');
+}
 body{
     background-color: white;
+    font-family: Karma;
 }
 
 .yellowRectangle{            /* Bloque amarillo blureado */

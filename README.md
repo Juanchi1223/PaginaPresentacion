@@ -4,8 +4,6 @@ Este va archivo va a presetar las ideas y objetivos de mi pagina.
 
 Objetivos(Temporales):
 
-1. Cambiar Fuentes
-2. Agregar los Shadow Box a los botones
 
 Proximos:
 
